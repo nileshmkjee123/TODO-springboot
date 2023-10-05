@@ -15,4 +15,8 @@ public interface TodoService {
     TodoDto updateTodo(TodoDto todoDto,Long todoId);
 
     String deleteTodo(Long todoId);
+
+    TodoDto completeTodo(Long id);
+
+    TodoDto inCompleteTodo(Long id);
 }
